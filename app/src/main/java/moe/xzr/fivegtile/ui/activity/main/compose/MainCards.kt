@@ -35,7 +35,7 @@ import moe.xzr.fivegtile.ui.activity.main.MainViewModel
 
 @Composable
 internal fun CompatibilityHint(compatibilityState: MainViewModel.CompatibilityState) {
-    Crossfade(targetState = compatibilityState, label = "compatibility_hint") {
+    Crossfade(targetState = compatibilityState) {
         Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier

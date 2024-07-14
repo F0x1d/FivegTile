@@ -2,9 +2,6 @@ package moe.xzr.fivegtile.ui.activity.main
 
 import android.app.Application
 import android.telephony.SubscriptionManager
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.produceState
 import androidx.lifecycle.AndroidViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
